@@ -4,6 +4,7 @@ const ProfilePage = () => {
     const [num1, setNum1] = useState(100);
     const [num2, setNum2] = useState(2000);
 
+    // UseEffect
     useEffect(() => {
         console.log('Inside useEffect');
         setNum1(150);
